@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>springEducation</groupId>
-	<artifactId>emailNotificationApp</artifactId>
+	<artifactId>emailNotification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>emailNotificationApp</name>
+	<name>emailNotification</name>
 	<description>Education. Stage 2</description>
 	<url/>
 	<licenses>
@@ -65,6 +65,13 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
